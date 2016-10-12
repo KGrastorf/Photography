@@ -1,0 +1,108 @@
+body {
+    font-family: 'Kaushan Script', cursive;
+    text-shadow: 1px 1px black;
+    background-color: rgb(255, 218, 122);
+}
+
+
+div.banner.ng-scope {
+    height: 50vh;
+    width: auto;
+    background-image: url("images/eaglebanner4.jpg");
+    background-size: contain;
+    image-resolution: snap;
+    background-repeat: no-repeat;
+}
+
+div.banner2.ng-scope {
+    height: 50vh;
+    width: auto;
+    background-image: url("images/bisonbanner1.jpg");
+    background-size: contain;
+    image-resolution: snap;
+    background-repeat: no-repeat;
+}
+
+div.banner3.ng-scope {
+    height: 50vh;
+    width: auto;
+    background-image: url("images/headshotbanner.jpg");
+    background-size: contain;
+    image-resolution: snap;
+    background-repeat: no-repeat;
+}
+.blk4, .blk3, .blk2, .blk {
+    padding-top: 70px;
+    text-align: right;
+    text-shadow: 1px 1px white;
+    width: 50vw;
+    height: max-content;
+    position: absolute;
+    right: 25vw;
+    text-align: center;
+    -webkit-animation: mymove 10s;
+    /* Chrome, Safari, Opera */
+    animation: mymove 10s;
+}
+
+.st {
+    display: none;
+}
+
+div.banner4.ng-scope {
+    height: 50vh;
+    width: auto;
+    background-image: url("images/buddhabanner.jpg");
+    background-size: contain;
+    image-resolution: snap;
+    background-repeat: no-repeat;
+}
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    from {
+        right: 0px;
+    }
+    to {
+        right: 25vw;
+    }
+}
+
+@keyframes mymove {
+    from {
+        right: 0px;
+    }
+    to {
+        right: 25vw;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .blk4, .blk3, .blk2, .blk {
+        width: 100vw;
+        right: 0;
+        text-align: center;
+    }
+    .st {
+        display: block;
+    }
+    .lt {
+        display: none;
+    }
+    @-webkit-keyframes mymove {
+        from {
+            right: 0;
+        }
+        to {
+            right: 0;
+        }
+    }
+
+    @keyframes mymove {
+        from {
+            right: 0;
+        }
+        to {
+            right: 0;
+        }
+    }
+}
