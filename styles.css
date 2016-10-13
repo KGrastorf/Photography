@@ -1,14 +1,14 @@
 body {
     font-family: 'Kaushan Script', cursive;
     text-shadow: 1px 1px black;
-    background-color: rgb(255, 218, 122);
+    background-color: #e0a046;
 }
 
 
 div.banner.ng-scope {
     height: 50vh;
     width: auto;
-    background-image: url("images/eaglebanner4.jpg");
+    background-image: url("images/eaglebanner5.jpg");
     background-size: contain;
     image-resolution: snap;
     background-repeat: no-repeat;
@@ -17,7 +17,7 @@ div.banner.ng-scope {
 div.banner2.ng-scope {
     height: 50vh;
     width: auto;
-    background-image: url("images/bisonbanner1.jpg");
+    background-image: url("images/bisonbanner3.jpg");
     background-size: contain;
     image-resolution: snap;
     background-repeat: no-repeat;
@@ -26,7 +26,7 @@ div.banner2.ng-scope {
 div.banner3.ng-scope {
     height: 50vh;
     width: auto;
-    background-image: url("images/headshotbanner.jpg");
+    background-image: url("images/headshotbanner3.jpg");
     background-size: contain;
     image-resolution: snap;
     background-repeat: no-repeat;
@@ -52,7 +52,7 @@ div.banner3.ng-scope {
 div.banner4.ng-scope {
     height: 50vh;
     width: auto;
-    background-image: url("images/buddhabanner.jpg");
+    background-image: url("images/buddhabanner5.jpg");
     background-size: contain;
     image-resolution: snap;
     background-repeat: no-repeat;
