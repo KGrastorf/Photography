@@ -1,14 +1,14 @@
 body {
     font-family: 'Kaushan Script', cursive;
     text-shadow: 1px 1px black;
-    background-color: #e0a046;
+    /*background-color: #e0a046;*/
 }
 
 
 div.banner.ng-scope {
     height: 50vh;
     width: auto;
-    background-image: url("images/eaglebanner5.jpg");
+    background-image: url("images/eaglebanner4.jpg");
     background-size: contain;
     image-resolution: snap;
     background-repeat: no-repeat;
@@ -26,7 +26,7 @@ div.banner2.ng-scope {
 div.banner3.ng-scope {
     height: 50vh;
     width: auto;
-    background-image: url("images/headshotbanner3.jpg");
+    background-image: url("images/headshotbanner4.jpg");
     background-size: contain;
     image-resolution: snap;
     background-repeat: no-repeat;
@@ -105,4 +105,7 @@ div.banner4.ng-scope {
             right: 0;
         }
     }
-}
+
+.parallax {
+          position:static;
+        }
