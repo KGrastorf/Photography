@@ -19,15 +19,19 @@ angular.module("photoApp", ['ui.router'])
             });
 
 
-        $urlRouterProvider.otherwise('/');
+        $urlRouterProvider.otherwise('/templates/home.html');
 
     });
 
 $(document).ready(function(){
-             $('.parallax').parallax();
-           });
+    $('.parallax').parallax();
+});
 
 
 $(document).ready(function() {
     $(".button-collapse").sideNav();
+});
+
+$(document).ready(function(){
+    $('.materialboxed').materialbox();
 });
