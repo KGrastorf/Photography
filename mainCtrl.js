@@ -44,23 +44,23 @@ angular.module("photoApp")
   }];
 
   $scope.misc1= [{
-    img: "images/Kitty 3.2.jpg",
-    data: 'Farm Kitten.'
+    img: "images/YT.jpg",
+    data: "Taxi in Fort Collins, CO."
   },{
-    img: "images/Buddha Wallpaper.jpg",
-    data: "Buddha statue."
+    img: "images/Oat Cookies.jpg",
+    data: "Homemade Oatmeal Chocolate Chip Cookies."
   },{
     img: "images/Lights.jpg",
     data: "String of lights."
   },{
-    img: "images/Oat Cookies.jpg",
-    data: 'Homemade Oatmeal Chocolate Chip Cookies.'
+    img: "images/Kitty 3.2.jpg",
+    data: "Farm Kitten."
   },{
     img: "images/Tipi Chimney.jpg",
     data: "Tipi near Littl Big Horn."
   },{
-    img: "images/YT.jpg",
-    data: "Taxi in Fort Collins, CO."
+    img: "images/Buddha Wallpaper.jpg",
+    data: "Buddha statue."
   }];
 
 });
