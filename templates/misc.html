@@ -1,3 +1,15 @@
 <div class="banner4" ng-model="dir-ctrl">
     <h1 class="blk4">Miscellaneous</h1>
 </div>
+<div class="row">
+    <div ng-repeat="pics in misc1">
+        <div class="clearfix" ng-if="$index % 3 == 0"></div>
+        <div class="col s4">
+            <div class="card">
+                <div class="card-image">
+                    <img class="materialboxed" data-caption="{{pics.data}}." width="650" src="{{pics.img}}">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
