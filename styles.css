@@ -1,9 +1,14 @@
 body {
-    /*font-family: 'Kaushan Script', cursive;*/
     font-family: 'Comfortaa', cursive;
     text-shadow: 1px 1px black;
 }
 
+.ts {
+    color: white;
+    text-shadow: 1px 1px black;
+    /*padding-top: 10px;
+    padding: 20px 20px 20px 20px;*/
+}
 
 div.banner.ng-scope {
     height: 50vh;
@@ -40,13 +45,6 @@ div.banner4.ng-scope {
     image-resolution: snap;
     background-repeat: no-repeat;
 }
-
-/*.rows {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-
-}*/
 
 .blk4, .blk3, .blk2, .blk {
     padding-top: 80px;
@@ -95,7 +93,7 @@ div.banner4.ng-scope {
     }
 }
 
-@media only screen and (max-width: 1080px){
+@media only screen and (max-width: 768px){
     .blk4, .blk3, .blk2, .blk {
         width: 100vw;
         right: 0;

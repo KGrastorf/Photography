@@ -22,16 +22,14 @@ angular.module("photoApp", ['ui.router'])
         $urlRouterProvider.otherwise('/templates/home.html');
 
     });
-
 $(document).ready(function(){
     $('.parallax').parallax();
 });
 
+$(document).ready(function(){
+    $('.materialboxed').materialbox();
+});
 
 $(document).ready(function() {
     $(".button-collapse").sideNav();
-});
-
-$(document).ready(function(){
-    $('.materialboxed').materialbox();
 });
